@@ -1,0 +1,4 @@
+# DaCapo-2023 analysis corpus — jars are binary artifacts.
+# Prevent line-ending normalization / text diffs / merge attempts on them,
+# and mark them non-text so GitHub doesn't try to render diffs.
+*.jar binary

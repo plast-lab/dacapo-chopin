@@ -1,0 +1,23 @@
+benchmark,app_regex,notes
+avrora,avrora.*:cck.*:jintgen.*,
+batik,org.apache.batik.*,
+biojava,org.biojava.nbio.*,
+cassandra,org.apache.cassandra.*,
+eclipse,org.eclipse.jdt.*,subject lives in libs/ (app jar is the Equinox OSGi launcher)
+fop,org.apache.fop.*,
+graphchi,edu.cmu.graphchi.*,
+h2,org.h2.*,
+h2o,water.*:hex.*:ai.h2o.*,
+jme,com.jme3.*,excludes the jme3test.* driver
+jython,org.python.*,
+kafka,org.apache.kafka.*:kafka.*,Java (org.apache.kafka) + Scala (kafka) sources
+luindex,org.apache.lucene.*,
+lusearch,org.apache.lucene.*,
+pmd,net.sourceforge.pmd.*,
+spring,org.springframework.*,includes shaded cglib/asm/objenesis under the springframework namespace
+sunflow,org.sunflow.*,
+tomcat,org.apache.catalina.*:org.apache.coyote.*:org.apache.tomcat.*:org.apache.jasper.*:org.apache.el.*,
+tradebeans,org.apache.geronimo.daytrader.*,DayTrader javaee6 app (from the EAR); daytrader-app.jar added to app/
+tradesoap,org.apache.geronimo.daytrader.*,DayTrader javaee6 app (from the EAR); daytrader-app.jar added to app/
+xalan,org.apache.xalan.*:org.apache.xpath.*:org.apache.xml.dtm.*:org.apache.xml.res.*:org.apache.xml.serializer.*:org.apache.xml.utils.*,
+zxing,com.google.zxing.*,
